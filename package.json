@@ -9,6 +9,7 @@
   "scripts": {
     "build": "babel src --out-dir dist",
     "lint": "node_modules/.bin/eslint src __tests__ ./*.js",
+    "prepublish": "yarn lint && yarn test && yarn build",
     "test": "node_modules/.bin/jest"
   },
   "dependencies": {
