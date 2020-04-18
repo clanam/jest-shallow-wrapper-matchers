@@ -2,11 +2,12 @@
   "name": "jest-shallow-wrapper-matchers",
   "version": "1.0.0",
   "description": "Jest matchers for enzyme shallow wrappers.",
-  "main": "src/index.js",
+  "main": "dist/index.js",
   "repository": "git@github.com:clanam/jest-shallow-wrapper-matchers.git",
   "author": "🐿️ <1071472+clanam@users.noreply.github.com>",
   "license": "MIT",
   "scripts": {
+    "build": "babel src --out-dir dist",
     "lint": "node_modules/.bin/eslint src __tests__ ./*.js",
     "test": "node_modules/.bin/jest"
   },
