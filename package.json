@@ -5,5 +5,11 @@
   "main": "index.js",
   "repository": "git@github.com:clanam/jest-shallow-wrapper-matchers.git",
   "author": "🐿️ <1071472+clanam@users.noreply.github.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "lint": "node_modules/.bin/eslint src __tests__ ./*.js"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0"
+  }
 }
