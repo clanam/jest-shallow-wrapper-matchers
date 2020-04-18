@@ -32,6 +32,9 @@
     "preset": "react-native",
     "setupFilesAfterEnv": [
       "<rootDir>setup-tests.js"
+    ],
+    "testPathIgnorePatterns": [
+      "/node_modules/"
     ]
   }
 }
