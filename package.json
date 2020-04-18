@@ -28,6 +28,9 @@
     "react-native": "^0.62.2"
   },
   "jest": {
-    "preset": "react-native"
+    "preset": "react-native",
+    "setupFilesAfterEnv": [
+      "<rootDir>setup-tests.js"
+    ]
   }
 }
