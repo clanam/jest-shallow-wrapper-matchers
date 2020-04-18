@@ -2,7 +2,7 @@
   "name": "jest-shallow-wrapper-matchers",
   "version": "1.0.0",
   "description": "Jest matchers for enzyme shallow wrappers.",
-  "main": "index.js",
+  "main": "src/index.js",
   "repository": "git@github.com:clanam/jest-shallow-wrapper-matchers.git",
   "author": "🐿️ <1071472+clanam@users.noreply.github.com>",
   "license": "MIT",
@@ -32,6 +32,9 @@
     "preset": "react-native",
     "setupFilesAfterEnv": [
       "<rootDir>setup-tests.js"
+    ],
+    "testPathIgnorePatterns": [
+      "/node_modules/"
     ]
   }
 }

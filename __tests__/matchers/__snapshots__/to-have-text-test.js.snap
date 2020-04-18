@@ -1,0 +1,71 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`not.toHaveText empty text element fails when same 1`] = `
+"[2mexpect([22m[31mreceived[39m[2m).not.toHaveText()[22m
+
+Expected element not to have text \\"\\":
+  [31m\\"\\"[39m"
+`;
+
+exports[`not.toHaveText multiple nested text elements fails when same 1`] = `
+"[2mexpect([22m[31mreceived[39m[2m).not.toHaveText()[22m
+
+Expected element not to have text [\\"Nom nom mango mousse!\\",\\"Nom nom nom nom...\\"]:
+  [31m[\\"Nom nom mango mousse!\\", \\"Nom nom nom nom...\\"][39m"
+`;
+
+exports[`not.toHaveText nested text element fails when different 1`] = `
+"[2mexpect([22m[31mreceived[39m[2m).not.toHaveText()[22m
+
+Expected element not to have text \\"Nom nom mango mousse!\\":
+  [31m\\"Nom nom mango mousse!\\"[39m"
+`;
+
+exports[`not.toHaveText text element fails when same 1`] = `
+"[2mexpect([22m[31mreceived[39m[2m).not.toHaveText()[22m
+
+Expected element not to have text \\"Nom nom mango mousse!\\":
+  [31m\\"Nom nom mango mousse!\\"[39m"
+`;
+
+exports[`toHaveText fails when different (check array expectation, too long) 1`] = `
+"[2mexpect([22m[31mreceived[39m[2m).toHaveText()[22m
+
+Expected element to have text [\\"Nom nom mango mousse!\\",\\"Nom nom nom nom...\\",\\"eleven squirrels\\"]:
+  [31m[\\"Nom nom mango mousse!\\", \\"Nom nom nom nom...\\"][39m"
+`;
+
+exports[`toHaveText fails when different (check array expectation, too short) 1`] = `
+"[2mexpect([22m[31mreceived[39m[2m).toHaveText()[22m
+
+Expected element to have text [\\"Nom nom mango mousse!\\"]:
+  [31m[\\"Nom nom mango mousse!\\", \\"Nom nom nom nom...\\"][39m"
+`;
+
+exports[`toHaveText multiple nested text elements fails when different (check array expectation, right size) 1`] = `
+"[2mexpect([22m[31mreceived[39m[2m).toHaveText()[22m
+
+Expected element to have text [\\"Nom nom chocolate mousse!\\",\\"alphabet soup\\"]:
+  [31m[\\"Nom nom mango mousse!\\", \\"Nom nom nom nom...\\"][39m"
+`;
+
+exports[`toHaveText multiple nested text elements fails when different (check single string expectation) 1`] = `
+"[2mexpect([22m[31mreceived[39m[2m).toHaveText()[22m
+
+Expected element to have text \\"Nom nom chocolate mousse!\\":
+  [31m[\\"Nom nom mango mousse!\\", \\"Nom nom nom nom...\\"][39m"
+`;
+
+exports[`toHaveText nested text element fails when different 1`] = `
+"[2mexpect([22m[31mreceived[39m[2m).toHaveText()[22m
+
+Expected element to have text \\"Nom nom chocolate mousse!\\":
+  [31m\\"Nom nom mango mousse!\\"[39m"
+`;
+
+exports[`toHaveText text element fails when different 1`] = `
+"[2mexpect([22m[31mreceived[39m[2m).toHaveText()[22m
+
+Expected element to have text \\"Nom nom chocolate mousse!\\":
+  [31m\\"Nom nom mango mousse!\\"[39m"
+`;
