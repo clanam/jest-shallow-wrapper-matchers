@@ -1,6 +1,6 @@
 {
   "name": "jest-shallow-wrapper-matchers",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Jest matchers for enzyme shallow wrappers.",
   "main": "dist/index.js",
   "repository": "git@github.com:clanam/jest-shallow-wrapper-matchers.git",
