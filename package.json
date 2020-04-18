@@ -7,7 +7,8 @@
   "author": "🐿️ <1071472+clanam@users.noreply.github.com>",
   "license": "MIT",
   "scripts": {
-    "lint": "node_modules/.bin/eslint src __tests__ ./*.js"
+    "lint": "node_modules/.bin/eslint src __tests__ ./*.js",
+    "test": "node_modules/.bin/jest"
   },
   "dependencies": {
     "enzyme": "^3.11.0",
@@ -15,7 +16,11 @@
   },
   "devDependencies": {
     "@react-native-community/eslint-config": "^1.1.0",
+    "enzyme-adapter-react-16": "^1.15.2",
     "eslint": "^6.8.0",
-    "prettier": "^2.0.4"
+    "jest": "^25.3.0",
+    "prettier": "^2.0.4",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
   }
 }
